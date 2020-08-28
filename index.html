@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background: linear-gradient(#05FBFF, #1D62F0 ) fixed;
+                }
+            #footer{
+                position: fixed;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                height: 6rem;
+            }
+
+            #contetns{
+                position: fixed;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 6rem;
+            }
+            #button{
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
+                border-top-right-radius: 20px;
+                border-bottom-right-radius: 20px;
+                margin-right: 4px;
+                font-size: 30px;
+            }
+            #lr button{
+                border: 5px solid red;
+                background-color: yellow;
+                color: black;
+                padding: 10px;
+            }
+            #lr button:hover{
+                color:white;
+                background-color: #268181;
+            }
+            .rainbow{
+                background-image: linear-gradient(90deg, red, orange, yellow, green, blue, navy, purple);
+                -webkit-background-clip: text;
+                color: transparent;
+
+                font-weight: bold;
+                font-size: 40px;
+            }
+        </style>
+        <body>
+            <div style="text-align: center;">
+            <span class="rainbow">이곳은 엄마의 웹페이지 입니다.</span>
+            <div id="lr">
+            <div id="contents">
+            <div id="footer">
+                <button id="button" style="width: 150px; height: 67.5px;" onclick="window.open('http://kyd.rri.kr')">←</button>
+                <button id="button" style="width: 150px; height: 67.5px;" onclick="window.open('http://kyd.rri.kr')">→</button>
+            </div>
+        </body>
+    </head>
+</html>
